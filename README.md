@@ -1,4 +1,4 @@
-Hello! To look at the project download the ZIP folder and read the README of the unzipped folder. Here are some Screenshots of the Project.
+Hello! To look at the project download the ZIP folder and read the README of the unzipped folder. Here are some Screenshots of the Project:
 <img width="1440" alt="Bildschirmfoto 2024-02-06 um 10 12 58" src="https://github.com/DominikTraxler/Login-Logout-Website/assets/159123474/9e74564d-defa-489d-b60f-3b36b531ee3b">
 
 <img width="1440" alt="Bildschirmfoto 2024-02-06 um 10 16 46" src="https://github.com/DominikTraxler/Login-Logout-Website/assets/159123474/646d64d1-e1a6-44c3-8487-ef591622505a">
