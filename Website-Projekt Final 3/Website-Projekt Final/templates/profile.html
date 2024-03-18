@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> 
+
+    <title>{{username}}: Profile</title>
+</head>
+<body>
+    <div class="main">
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <a class="nav-link" href="/">Home</a>
+            </div>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                </li>
+                    <li>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                                {{username}}
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                              <li><a class="dropdown-item" href="{{ url_for('profile') }}">Profile</a></li>
+                              <li><a class="dropdown-item" href="{{ url_for('post') }}">Create Post</a></li>
+                              <li><form method="post"><input class="logout_button" type="submit" name="submit_button" value="logout"></form></li>
+                            </ul>
+                        </div> 
+                    </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="ProfilePage">
+        <div class="ProfilePage_lower">
+            <h1>{{username}}</h1>
+            <h2>Your Posts:</h2>
+            {% if postnames %}
+                <!--omg this took me so long, i need helppppp-->
+                {% set ns = namespace(items=-1) %}
+                {% for variable in postnames %}
+                    {% set ns.items = ns.items + 1 %}
+                    <div class="post_item {{ns.items}}">
+                        <div class="postnames">
+                            <h1>{{postnames[ns.items]}}</h1> <br>
+                        </div>
+                        <div class="posttexts">
+                            <p>{{posttexts[ns.items]}}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+            <a class="HomeButton" href="{{ url_for('post') }}">Create Post</a>     
+        </div>
+    </div>
+        
+    </div>
+</body>
+</html>

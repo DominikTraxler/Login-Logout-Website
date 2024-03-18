@@ -1,0 +1,411 @@
+.navbar{
+    height: 10vh;
+    background-color: rgba(0, 208, 255, 0.748);
+    border-style: solid;
+    border-bottom: rgba(0, 0, 0, 0.752);
+    border-left: transparent;
+    border-right: transparent;
+    /*border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;*/
+}
+
+.main{
+    background-image: url("img/colorfull-5906771_1920.png");
+    background-size:auto;
+    background-repeat: repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+/* Index Page */
+.First_Section{
+    display: flex;
+    margin-left: 7vw;
+}
+.Navbar_Left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Navbar_Left_lower{
+    padding: 5px;
+    padding-right: 20px;
+    border-style: solid;
+    border-color: black;
+    margin: 0.5vw;
+    max-height: 7vw;
+    background-color: #00b5f1;
+}
+.post_box_container_header{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.post_box_container{
+    margin-left: 2vw;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+    background-color: rgba(0, 0, 0, 0.561);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.CreateAnAccount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CreateAnAccount_lower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh;
+    background-color: rgba(0, 0, 0, 0.561);
+    border-radius: 25px;
+    width: 30vw;
+    margin-top: 5vh;
+    color: white;
+}
+.nopost{
+    margin: auto;
+    text-align: center;
+    max-width: 20vw;
+    color: white;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.561);
+}
+
+/* Posts */
+.post_item{
+    text-align: left;
+}
+.link_button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #00b5f1;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border: #333333;
+}
+.post_item{
+    /*width: 60vw;
+    margin-top: 10px;
+    margin-left: 30vw;
+    margin-right: 10vw;*/
+    width: 60vw;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(86, 199, 255);
+    border-radius: 10px;
+}
+.post_item h2{
+    text-decoration: underline;
+}
+.postnames{
+    max-width: 58vw;
+    width: 58vw;
+    white-space: normal;
+    word-break: break-word;
+}
+.posttexts{
+    max-width: 58vw;
+    width: 58vw;
+    white-space: normal;
+    word-break: break-word;
+}
+.postauthors{
+    font-style: italic;
+    color: red;
+}
+
+/* Profile Page */
+.ProfilePage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.ProfilePage_lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+    padding-left: 4vw;
+    background-color: rgba(0, 0, 0, 0.561);
+    border-radius: 25px;
+    width: 50vw;
+    color: rgb(255, 255, 255);
+    margin-top: 5vh;
+}
+.ProfilePage_lower h1{
+    text-decoration: underline;
+    font-style: italic;
+    padding-right: 4vw;
+}
+.ProfilePage_lower textarea{
+    width: 40vw;
+}
+.ProfilePage_lower label{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 26vw;
+}
+.ProfilePage_lower .btn{
+    margin-top: 2vh;
+}
+.ProfilePage_lower .btn{
+    margin-top: 2vh;
+}
+
+
+/* Post Page */
+.PostPage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.PostPage_lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+    padding-left: 4vw;
+    padding-bottom: 3vh;
+    background-color: rgba(0, 0, 0, 0.561);
+    border-radius: 25px;
+    width: 50vw;
+    color: rgb(255, 255, 255);
+    margin-top: 5vh;
+}
+.PostPage_lower h1{
+    text-decoration: underline;
+    font-style: italic;
+    padding-right: 4vw;
+}
+.PostPage_lower textarea{
+    width: 40vw;
+}
+.PostPage_lower label{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 26vw;
+}
+.PostPage_lower .btn{
+    margin-top: 2vh;
+}
+.PostPage_lower .btn{
+    margin-top: 2vh;
+}
+
+
+/* Success Pages */
+.SuccessPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.SuccessPage_lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30vh;
+    padding: 2vh;
+    background-color: rgba(0, 0, 0, 0.561);
+    border-radius: 25px;
+    width: 50vw;
+    color: rgb(255, 255, 255);
+}
+.SuccessPage_lower a{
+    margin-top: 2vh;
+}
+
+.usernamediv{
+    display: inline;
+}
+
+.username{
+    display: inline;
+    color: red;
+}
+
+.username:hover{
+    text-decoration: underline;
+}
+
+
+/* Home Button */
+.HomeButton:link, .HomeButton:visited {
+    background-color: #3662f4;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .HomeButton:hover, .HomeButton:active {
+    background-color: rgb(0, 30, 150);
+  }
+
+/* Post Page */
+input[type=text], input[type=password], select {
+    width: 90%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.Main_Post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Register Page */
+.RegisterAnAccount{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.RegisterAnAccount_lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.561);
+    border-radius: 25px;
+    width: 30vw;
+    color: rgb(255, 255, 255);
+}
+.RegisterAnAccount_lower h1{
+    text-decoration: underline;
+    font-style: italic;
+}
+.RegisterAnAccount_lower label{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.RegisterAnAccount_lower .btn{
+    margin-top: 2vh;
+}
+.RegisterAnAccount_lower .btn{
+    margin-top: 2vh;
+}
+
+/* Login Page */
+.loginAccount{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 11vh;
+}
+.loginAccount_lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.561);
+    border-radius: 25px;
+    width: 30vw;
+    color: rgb(255, 255, 255);
+}
+.loginAccount_lower h1{
+    text-decoration: underline;
+    font-style: italic;
+}
+.loginAccount_lower label{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.loginAccount_lower .btn{
+    margin-top: 2vh;
+}
+.login_lower .btn{
+    margin-top: 2vh;
+}
+
+
+/* About */
+.about_paragraph{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 11vh;
+}
+.about_paragraph_lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.561);
+    border-radius: 25px;
+    width: 30vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.about_paragraph_lower h1{
+    text-decoration: underline;
+}
+
+
+/* General */
+.logout_button{
+    margin-left: 1vw;
+}
+.BackButton{
+    background-color: rgb(0, 208, 255, 0.748);
+    color: rgb(0, 0, 0);
+    margin-left: 4vw;
+    margin-top: 3vw;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.dropdown-item{
+    border-width: 1vw;
+}
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.error_lower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+    background-color: rgba(0, 0, 0, 0.561);
+    border-radius: 25px;
+    width: 30vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2vh;
+}
+.error_lower h1{
+    color:  rgb(255, 0, 0);
+    background-color: rgba(255, 0, 217, 0.254);
+    border-radius: 50px;
+    width: 10vw;
+    text-decoration: underline;
+}
